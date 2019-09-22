@@ -1,14 +1,12 @@
-n = int(input("Enter:"))
-
-def fib(n):
+x = int(input("Enter:"))
+def fib(x):
     a,b=0,1
-    while a < n:
+    while a < x:
         print(a, end = ' ')
-
         a,b=b,a+b
     print()
     return
-fib(n)
+fib(x)
     
   
 
